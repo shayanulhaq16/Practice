@@ -120,3 +120,46 @@ nav a:hover {
     margin-bottom: auto;
     margin-top: 60px;
 }
+
+footer {
+    padding: 35px 8% 20px;
+    background: #111827;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.footer-content h2 span {
+    color: #2563eb;
+}
+
+.footer-content p {
+    color: #9ca3af;
+}
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a {
+    color: #9ca3af;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.copyright {
+    padding-top: 20px;
+    border-top: 1px solid #293241;
+    text-align: center;
+    color: #6b7280;
+    font-size: 14px;
+}
